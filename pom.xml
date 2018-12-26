@@ -22,7 +22,13 @@
 	    <groupId>org.apache.tomcat</groupId>
 	    <artifactId>tomcat-websocket-api</artifactId>
 	    <version>8.0.44</version>
-	</dependency>
+	</dependency>	  
+   <!-- javaee for websocket -->
+    <dependency>
+      <groupId>javax</groupId>
+      <artifactId>javaee-api</artifactId>
+      <version>7.0</version>
+    </dependency>  	  
     <!-- json处理工具包 -->
     <dependency>
 	  <groupId>com.alibaba</groupId>
